@@ -16,7 +16,7 @@ provider "aws" {
 resource "aws_instance" "app_server" {
   ami           = "ami-0c09c7eb16d3e8e70"
   instance_type = "t2.micro"
-  key_name = "iac"
+  key_name = "chave"
 
   tags = {
     Name = "ubuntu-server"
